@@ -1,0 +1,349 @@
+<html>
+  <head>
+      <title> My Resume </title>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:'Poppins',sans-serif;
+} 
+
+body {
+ background:#c7effb;
+ display:flex;
+ justify-content:center;
+ align-items:center;
+ min-height:100vh;
+}
+
+.container {
+   position:relative;
+   width:100%;
+   max-width:1000px;
+   min-height:1000px;
+   margin:50px;
+   background:#fff;
+   display:grid;
+   grid-template-columns:1fr 2fr;
+   box-shadow:0 35px 55px rgba(0,0,0);
+}
+
+.container .left-side {
+   position:relative;
+   background:#003147;
+   padding:40px;
+}
+
+.profileText {
+   position:relative;
+   display:flex;
+   flex-direction:column;
+   align-items:center;
+   padding-bottom:20px;
+
+}
+.profileText .imgbox {
+   position:relative;
+   width:200px;
+   height:200px;
+   border-radius:50%;
+   overflow:hidden;
+}
+
+.profileText .imgbox img {
+   position:absolute;
+   top:0;
+   left:0;
+   width:100%;
+   height:100%;
+   object-fit:cover;
+}
+
+.profileText h2 {
+   color:#fff;
+   font-size:1.5em;
+   margin-top:20px;
+   text-align:center;
+   font-weight:600;
+   }
+.profileText h2 span {
+   font-size:1.5em;
+   font-weight:300;
+}
+.contactinfo {
+   padding-top:40px;
+   
+}
+.title {
+   color:#fff;
+   font-weight:600;
+   letter-spacing:1px;
+   margin-bottom:20px;
+}
+
+.contactinfo ul {
+   position:relative;
+}
+.contactinfo ul li{
+   position:relative;
+   list-style:none;
+   margin:10px;
+} 
+
+.contactinfo ul li .icon {
+    display:inline-block;
+	width:30px;
+	font-size:18px;
+	color:blue;
+}
+.contactinfo ul li span {
+   color:#fff;
+   font-weight:600;
+}
+ 
+.contactinfo .qualifications li {
+   margin-bottom:15px;
+}
+ 
+  
+.contactInfo .qualifications h3 {
+    color:lightblue;
+	font-weight:500;
+ }
+ 
+.contactInfo .qualifications h4:nth-child:(2) {
+   color:#fff;
+   font-weight:500;
+}
+.contactInfo .qualifications h4 {
+    color:#fff;
+	font-weight:300;
+}
+
+.contactInfo .language{
+   color:#fff;
+}
+
+.contactInfo .language h3 {
+   color:#fff;
+}
+
+.contactInfo .language h4 {
+   color:lightblue;
+}
+
+.container .right-side {
+   position:relative;
+   background:#e0f7fa;;
+   padding:60px;
+}
+
+.title2 {
+    color:darkblue;
+    text-transform:uppercase;
+    letter-spacing:1px;
+  }
+  
+p {
+    font-size:x-large;
+	font-weight:900;
+	}
+  
+  
+.p:hover {
+	color:#0a0a23; 
+	}  
+  
+.skills .box {
+   position:relative;
+   width:100%;
+   display:grid;
+   align-items:center;
+}  
+
+.skills .box h4 {
+    text-transform:uppercase;
+	color:#848c99;
+	font-weight:500;
+}
+
+.skills .box  .percent {
+  position:relative;
+  width:100%;
+  height:10px;
+  background:lightblue;
+}
+
+.skills .box  .percent div {
+   position:absolute;
+   top:0;
+   left:0;
+   height:100%;
+   background:#03a9f4;
+}
+.intrest ul {
+  position:relative;
+}
+.intrest ul li {
+  list-style:none;
+  font-size: x-large;
+  color:#333;
+  font-weight:600;
+  margin:10px;
+}
+.strenght ul {
+  position:relative;
+}
+
+.strenght ul li {
+     list-style:none;
+	 font-size: x-large;
+     color:#333;
+     font-weight:800;
+     margin:5px;
+}
+
+</style>
+</head>
+
+<body>
+     <div class="container">
+	    <div class="left-side">
+		   <div class="profileText">
+		   <div class="imgBox">
+		   <img src="./img.jpg">
+		   </div>
+		 <h2>Anisha Upadhyay<br><span>developer</span></h2>  
+		   </div>
+		<div class="contactinfo">   
+		   <h3 class="title">Contact Informations<h3>
+		   <ul>
+		       <li>
+			      <span class="icon"></span>
+			      <span class="text">8818914241</span>
+			   </li>
+			   
+			  <li>
+			        <span class="icon"></span>
+			      <span class="text">Upadhyayanisha60@gmail.com</span>
+			   </li>
+
+ 			   <li>
+			       <span class="icon"></span>
+			      <span class="text">99/100,Madhuban Colony,Dewas</span>
+			   </li>
+			 
+		   </ul>
+		  
+		
+		<div class="contactinfo qualifications">   
+		   <h3 class="title">Qualifications</h3>
+		   <ul>
+		       <li>
+			      <h3>Persuing</h3>
+				  <h4>masters in computer applications</h4>   
+			   </li>
+			   
+			  <li>
+			        <h3>Gradution in bachlours of Science</h3>
+				    <h4>From Vikram University,Ujjain</h4> 
+                     <h4>With 65.21%</h4>
+                       <h4>2019-2022</h4>					 
+			   </li>
+
+ 			   <li>
+			       <h3>Intermediate board of secondary education,madhyapradesh</h3>
+				   <h4>From New Era Higher Secondary School,Dewas</h4>  
+                   <h4>With 66.6%</h4>  
+                   <h4>2018-2019</h4>				   
+			   </li>
+			 
+			      <li>
+			         <h3>High school education</h3>
+				     <h4>From Kendriya Vidyalaya,Dewas</h4>  
+                     <h4>With 8 CGPA</h4> 
+                      <h4>2016-2017</h4>					 
+			   </li>
+		   </ul>
+		   </div>
+		   
+		   <div class="ContactInfo language">
+		    <h3 class="title">Languages Known</h3>
+		<ul>	
+		     <li>
+			<h4>   <span class="text">English</span> </h4>
+			  </li> 
+			  
+			  <li>
+			  <h4> <span class="text">Hindi</span> </h4>
+			  </li> 
+			  
+			  <li>
+			<h4>   <span class="text">Bhojpuri</span> </h4>
+			  </li> 
+		 </ul> 
+		   
+		</div>
+		 </div>
+		</div>
+		
+		
+		
+		
+		
+		<div class="right-side">
+		  <div class="about">
+		   <h2 class="title2">Profile</h2>
+	<p> I am a hardworking and motivated person who has acquired extensive knowledge in the feild through the study of html and css.
+       I have strenghtened my skills and I am able to handle multiple tasks on a daily basis.I use creative approach to solve problems.
+      I am always energetic and eager to learn new skills.I am a dependable person who is great at time management.	   </p>	   
+		</div>
+		<div class="about skills">
+		<h2 class="title2">Proffesional Skills</h2>
+		<div class="box">
+		  <h3>HTML </h3>
+		 <div class="percent">
+		 <div style="width:90%"></div>
+		 </div>
+		 
+		 <div class="box">
+		  <h3>CSS </h3>
+		 <div class="percent">
+		    <div style="width:85%"></div>
+		 </div>
+		  
+		  <div class="box">
+		  <h3>C </h3>
+		 <div class="percent">
+		    <div style="width:75%"></div>
+		 </div>
+		 
+		 <div class="box">
+		  <h3>C </h3>
+		 <div class="percent">
+		    <div style="width:70%"></div>
+		 </div>
+		 
+	<div class="about intrest">	
+     <h2 class="title2">Intrests</h2>	
+		<ul>
+            <li>Cooking</li>
+			<li>Writing Poetry</li>
+        </ul>	
+   </div>		
+   
+               <div class="about strenght">	
+              <h2 class="title2">Strenghts</h2>	
+		      <ul>
+                  <li>Leadership</li>
+			      <li>Problem Solving </li>
+			       <li>Multitasking</li>
+             </ul>	
+   </div>		
+   
+		 </div>
+	 </div>	
+</body>
+</html>
